@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "algorithms"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pylint = "^2.11.1"
+coverage = "^6.2"
+pyinstrument = "^4.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+isort = "^5.9.3"
+icecream = "^2.1.1"
+pyinstrument = "^4.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
